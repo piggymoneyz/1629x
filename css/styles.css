@@ -1,0 +1,62 @@
+/* css/styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1f164e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.content-section {
+    padding: 20px;
+    /* Center the content */
+    max-width: 800px;  /* or any width you prefer */
+    margin: 0 auto;    /* centers the container horizontally */
+    text-align: center; /* centers the text content */
+}
+
+/* For flexbox centering of content */
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For grid centering */
+.center-grid {
+    display: grid;
+    place-items: center;
+}
